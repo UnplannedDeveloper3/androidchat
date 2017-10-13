@@ -1,0 +1,22 @@
+package atritechnocrat.com.locationchatapplication.webservice.responsePojo;
+
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
+/**
+ * Created by admin on 18-08-2017.
+ */
+
+public class BaseResponse {
+    @SerializedName("message")
+    @Expose
+    private String message;
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+}

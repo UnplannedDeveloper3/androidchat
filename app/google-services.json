@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "903641012667",
+    "firebase_url": "https://locationchat-59ef5.firebaseio.com",
+    "project_id": "locationchat-59ef5",
+    "storage_bucket": "locationchat-59ef5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903641012667:android:2fc78489174093ee",
+        "android_client_info": {
+          "package_name": "atritechnocrat.com.locationchatapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "903641012667-hm7j72epd0oodogr3l5dls840brsj3ov.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "atritechnocrat.com.locationchatapplication",
+            "certificate_hash": "c90b95022cc35de1c6d5d44bc839cc16663264e8"
+          }
+        },
+        {
+          "client_id": "903641012667-26h26474e9u3972drth7n5k53e9h7d5i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0BiyxlYXTfzdjXdWXs1Guh5QjpbGIls8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "903641012667-26h26474e9u3972drth7n5k53e9h7d5i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

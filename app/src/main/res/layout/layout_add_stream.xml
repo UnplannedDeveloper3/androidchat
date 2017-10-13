@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:padding="@dimen/dp10"
+        android:text="@string/share"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/sp20"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+
+            <EditText
+                android:id="@+id/streamTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_stream_title"
+                android:inputType="text"
+                android:maxLength="@integer/max_length"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+
+        <Button
+            android:id="@+id/submitStream"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp20"
+            android:background="@color/colorAccent"
+            android:text="@string/submit"
+            android:padding="@dimen/dp5"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</LinearLayout>
